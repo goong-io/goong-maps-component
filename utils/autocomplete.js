@@ -72,6 +72,7 @@ export default function(inp, options) {
       });
       sessionToken = null;
 
+      options.component.onSearch(res.data.result);
       options.component.flyTo({
         name: res.data.result.name,
         description: res.data.result.formatted_address,

@@ -29,7 +29,10 @@
             apiKey: "fEUCqIOfsX4JHeHBXYhrwJHoTMGS4WnQix9Y3uCL",
             center: [105.0, 21.0],
             control: true // Have control button zoom in-out
-        })
+        });
+        component.on('search', function(marker){
+          alert(marker.name);
+        });
       </script>
     </div> 
   </body>

@@ -2,8 +2,8 @@
 
 ### Using with CDN
 ```js
-<script src='https://cdn.jsdelivr.net/npm/@goong/map-component@1.1.0/dist/goong-maps-component.min.js'></script>
-<link href="https://cdn.jsdelivr.net/npm/@goong/map-component@1.1.0/dist/goong-maps-component.min.css" rel="stylesheet" type="text/css"/>
+<script src='https://cdn.jsdelivr.net/npm/@goong/map-component@1.1.2/dist/goong-maps-component.min.js'></script>
+<link href="https://cdn.jsdelivr.net/npm/@goong/map-component@1.1.2/dist/goong-maps-component.min.css" rel="stylesheet" type="text/css"/>
 ```
 
 #### Examples
@@ -59,6 +59,9 @@ function GoongComponentReact(props) {
       accessToken="MAP LOAD API KEY",
       zoom={9}
       enabledSearch={false}
+      onSearch={(marker) => {
+        console.log(marker);
+      }}
       apiKey="SERVICE API KEY"
       leftPane="false"
       center={[105.0,21.0]},
@@ -81,3 +84,12 @@ function GoongComponentReact(props) {
 | center | LngLatArray - Default center for init Map |
 | control | Boolean - Show or hidden button zoomin/zoomout in Map |
 | markers | Array<Markers> - List of marker for show in Map |
+| onSearch | Using only for React - handle poi when searching... |
+
+### Events
+
+> ES5 handle events with method .on("eventName", function(obj){ //... })
+
+| Events | Object |
+| ------ | ------ |
+| search | MarkerObj |
