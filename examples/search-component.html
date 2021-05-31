@@ -1,0 +1,36 @@
+<!doctype html>
+<html class="no-js">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <base href=".">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../goong-maps-component.min.css">
+    <script src="../goong-maps-component.min.js"></script>
+    <style>
+      #map{
+        width: 100vw;
+        height: 100vh;
+        position: absolute;
+        top: 0;
+        left: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="map">
+      <script>
+        var component =  new GoongComponent({
+            accessToken: "5l7OqNgrkuGwV74K1mmbQP1dyR954QxABPETnP2p",
+            container: "map",
+            zoom: 9, //default is 9,
+            enabledSearch: true, //Need apiKey
+            apiKey: "fEUCqIOfsX4JHeHBXYhrwJHoTMGS4WnQix9Y3uCL",
+            center: [105.0, 21.0],
+            control: true // Have control button zoom in-out
+        })
+      </script>
+    </div> 
+  </body>
+</html>
