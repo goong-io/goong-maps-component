@@ -3,18 +3,18 @@
 ### Using with CDN
 ```js
 <script src='https://cdn.jsdelivr.net/npm/@goong/map-component@1.1.0/dist/goong-maps-component.min.js'></script>
-<link href="https://cdn.jsdelivr.net/npm/@goong/map-component@1.0.0/dist/goong-maps-component.min.css" rel="stylesheet" type="text/css"/>
+<link href="https://cdn.jsdelivr.net/npm/@goong/map-component@1.1.0/dist/goong-maps-component.min.css" rel="stylesheet" type="text/css"/>
 ```
 
 #### Examples
 
-[Simple Map] (https://github.com/goong-io/goong-maps-component/blob/master/examples/simple.html)
+[ Simple Map ](https://github.com/goong-io/goong-maps-component/blob/master/examples/simple.html)
 
-[Search Component] (https://github.com/goong-io/goong-maps-component/blob/master/examples/search-component.html)
+[ Search Component ](https://github.com/goong-io/goong-maps-component/blob/master/examples/search-component.html)
 
-[Multi Markers] (https://github.com/goong-io/goong-maps-component/blob/master/examples/multi-markers.html)
+[ Multi Markers ](https://github.com/goong-io/goong-maps-component/blob/master/examples/multi-markers.html)
 
-[Advance] (https://github.com/goong-io/goong-maps-component/blob/master/examples/advance.html)
+[ Advance ](https://github.com/goong-io/goong-maps-component/blob/master/examples/advance.html)
 
 ### React Component
 
