@@ -2,8 +2,8 @@
 
 ### Using with CDN
 ```js
-<script src='https://cdn.jsdelivr.net/npm/@goong/map-component@1.1.2/dist/goong-maps-component.min.js'></script>
-<link href="https://cdn.jsdelivr.net/npm/@goong/map-component@1.1.2/dist/goong-maps-component.min.css" rel="stylesheet" type="text/css"/>
+<script src='https://cdn.jsdelivr.net/npm/@goong/map-component@1.1.3/dist/goong-maps-component.min.js'></script>
+<link href="https://cdn.jsdelivr.net/npm/@goong/map-component@1.1.3/dist/goong-maps-component.min.css" rel="stylesheet" type="text/css"/>
 ```
 
 #### Examples
