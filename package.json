@@ -2,6 +2,10 @@
   "name": "@goong/map-component",
   "version": "1.1.0",
   "main": "src/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/goong-io/goong-maps-component.git"
+  },
   "license": "MIT",
   "unpkg": "dist/goong-maps-component.min.js",
   "style": "dist/goong-maps-component.css",
