@@ -2,19 +2,19 @@
 
 ### Using with CDN
 ```js
-<script src='https://cdn.jsdelivr.net/npm/@goong/map-component@1.1.3/dist/goong-maps-component.min.js'></script>
-<link href="https://cdn.jsdelivr.net/npm/@goong/map-component@1.1.3/dist/goong-maps-component.min.css" rel="stylesheet" type="text/css"/>
+<script src='https://cdn.jsdelivr.net/npm/@goong/map-component@1.1.4/dist/goong-maps-component.min.js'></script>
+<link href="https://cdn.jsdelivr.net/npm/@goong/map-component@1.1.4/dist/goong-maps-component.min.css" rel="stylesheet" type="text/css"/>
 ```
 
 #### Examples
 
-[ Simple Map ](https://github.com/goong-io/goong-maps-component/blob/master/examples/simple.html)
+[ Simple Map ](http://jsfiddle.net/buminta/8cfy296q/14)
 
-[ Search Component ](https://github.com/goong-io/goong-maps-component/blob/master/examples/search-component.html)
+[ Search Component ](http://jsfiddle.net/buminta/8cnv2xk4/4/)
 
-[ Multi Markers ](https://github.com/goong-io/goong-maps-component/blob/master/examples/multi-markers.html)
+[ Multi Markers ](http://jsfiddle.net/buminta/k09bdnpv/4/)
 
-[ Advance ](https://github.com/goong-io/goong-maps-component/blob/master/examples/advance.html)
+[ Advance ](http://jsfiddle.net/buminta/pg9ro8f3/2/)
 
 ### React Component
 
@@ -33,7 +33,8 @@ npm install @goong/map-component
 #### Component Examples
 
 ```js
-import GoongMapComponent from "@goong/map-component";
+import * as GoongMap from "@goong/map-component";
+import "@goong/map-component/dist/goong-maps-component.min.css";
 
 function GoongComponentReact(props) {
   const markers = [
@@ -55,7 +56,7 @@ function GoongComponentReact(props) {
   ];
 
   return (
-    <GoongMapComponent
+    <GoongMap.Component
       accessToken="MAP LOAD API KEY",
       zoom={9}
       enabledSearch={false}

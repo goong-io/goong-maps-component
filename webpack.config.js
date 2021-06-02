@@ -11,22 +11,23 @@ module.exports = {
         }
     },
     entry: {
-        'goong-maps-component': [
-        './src/index.js',
-        './styles/index.scss',
-        '@goongmaps/goong-js/dist/goong-js.css'
-        ]
+      'goong-maps-component': './src/index.js'
     },
     output: {
-        filename: '[name].min.js',
-        path: path.resolve(__dirname, 'dist')
+      filename: '[name].min.js',
+      path: path.resolve(__dirname, 'dist'),
+      library: "GoongMap",
+      libraryTarget: "umd"
     },
     module: {
         rules: [
         {
           test: /\.js$/,
+          exclude: /node_modules/,
           use: [
-            {loader: "babel-loader"}
+            {
+              loader: "babel-loader"
+            }
           ]
         },
         {
@@ -58,7 +59,7 @@ module.exports = {
 
     plugins: [
       new MiniCssExtractPlugin({
-          filename: '[name].min.css'
+          filename: 'goong-maps-component.min.css'
       })
     ]
 };
