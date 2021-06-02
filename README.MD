@@ -8,13 +8,13 @@
 
 #### Examples
 
-[ Simple Map ](http://jsfiddle.net/buminta/8cfy296q/14)
+[ Simple Map ](http://jsfiddle.net/buminta/8cfy296q)
 
-[ Search Component ](http://jsfiddle.net/buminta/8cnv2xk4/4/)
+[ Search Component ](http://jsfiddle.net/buminta/8cnv2xk4)
 
-[ Multi Markers ](http://jsfiddle.net/buminta/k09bdnpv/4/)
+[ Multi Markers ](http://jsfiddle.net/buminta/k09bdnpv)
 
-[ Advance ](http://jsfiddle.net/buminta/pg9ro8f3/2/)
+[ Advance ](http://jsfiddle.net/buminta/pg9ro8f3)
 
 ### React Component
 

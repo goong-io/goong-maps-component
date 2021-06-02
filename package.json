@@ -1,6 +1,6 @@
 {
   "name": "@goong/map-component",
-  "version": "1.1.4",
+  "version": "1.1.5",
   "main": "dist/goong-maps-component.cjs.js",
   "module": "dist/goong-maps-component.esm.js",
   "repository": {
@@ -13,7 +13,7 @@
   "scripts": {
     "dev": "webpack-cli serve --watch-options-stdin --mode development",
     "prepublish": "webpack --mode production",
-    "build": "rollup -c"
+    "build": "rollup -c  && webpack --mode production"
   },
   "devDependencies": {
     "@webpack-cli/serve": "^1.4.0",
