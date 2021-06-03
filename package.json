@@ -1,6 +1,6 @@
 {
   "name": "@goong/map-component",
-  "version": "1.1.5",
+  "version": "1.1.6",
   "main": "dist/goong-maps-component.cjs.js",
   "module": "dist/goong-maps-component.esm.js",
   "repository": {
