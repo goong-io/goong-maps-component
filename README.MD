@@ -2,21 +2,29 @@
 
 ### Using with CDN
 ```js
-<script src='https://cdn.jsdelivr.net/npm/@goong/map-component@1.1.4/dist/goong-maps-component.min.js'></script>
-<link href="https://cdn.jsdelivr.net/npm/@goong/map-component@1.1.4/dist/goong-maps-component.min.css" rel="stylesheet" type="text/css"/>
+<script src='https://cdn.jsdelivr.net/npm/@goong/map-component@1.1.5/dist/goong-maps-component.min.js'></script>
+<link href="https://cdn.jsdelivr.net/npm/@goong/map-component@1.1.5/dist/goong-maps-component.min.css" rel="stylesheet" type="text/css"/>
 ```
 
 #### Examples
 
-[ Simple Map ](http://jsfiddle.net/buminta/8cfy296q)
+[ Simple Map ](https://codesandbox.io/s/simple-map-js-kl8hs)
 
-[ Search Component ](http://jsfiddle.net/buminta/8cnv2xk4)
+[ Search Component ](https://codesandbox.io/s/markers-4l3sb)
 
-[ Multi Markers ](http://jsfiddle.net/buminta/k09bdnpv)
+[ Multi Markers ](https://codesandbox.io/s/search-component-8d3do)
 
-[ Advance ](http://jsfiddle.net/buminta/pg9ro8f3)
+[ Advance ](https://codesandbox.io/s/advance-wirui)
 
 ### React Component
+
+[ Simple Map ](https://codesandbox.io/s/simple-map-yyixp)
+
+[ Search Component ](https://codesandbox.io/s/react-marker-y4ue4)
+
+[ Multi Markers ](https://codesandbox.io/s/react-search-tn1s8)
+
+[ Advance ](https://codesandbox.io/s/react-advance-15k07)
 
 ### Install
 
@@ -60,6 +68,8 @@ function GoongComponentReact(props) {
       accessToken="MAP LOAD API KEY",
       zoom={9}
       enabledSearch={false}
+      markerIcon={null}
+      markerSize={50}
       onSearch={(marker) => {
         console.log(marker);
       }}
@@ -85,6 +95,8 @@ function GoongComponentReact(props) {
 | center | LngLatArray - Default center for init Map |
 | control | Boolean - Show or hidden button zoomin/zoomout in Map |
 | markers | Array<Markers> - List of marker for show in Map |
+| markerIcon | String - URL of icon png for use in Map |
+| markerSize | Number - Size by pixel for marker icon |
 | onSearch | Using only for React - handle poi when searching... |
 
 ### Events
